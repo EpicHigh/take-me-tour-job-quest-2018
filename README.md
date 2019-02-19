@@ -1,68 +1,65 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Take Me Tour's Job Quest
 
-## Available Scripts
+### Features
+- Users can get a joke from [Chuck Norris API](http://www.icndb.com/api/)
+- Users has options to change number of result jokes, user's first name and last name
+- Paper look is fine.
 
-In the project directory, you can run:
+### Front-end Questions
+1. Please explain a situation that using Redux to manage application state is more helpful than original React's state.
 
-### `npm start`
+Answer: We has a cool name such as a single source of truth. Just kidding,
+It's very beneficial WHEN your app is very complicated and the state of your app too.
+So it need to state management, Redux has many feature such as
+Predictable, Logging, Time travel debugging and more. It(Redux) can handle
+the state easier than before (means complicated app). *Easy Peasy
+ 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. Why do we need "Server-Side Rendering". Please explain.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Answer: If you need SEO result, ranking, or things that related with SEO,
+You do. Shortly but powerful,
 
-### `npm test`
+3. Explain the differences of `null` and `undefined`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Answer: undefined is an variable that not assign the value. null is an assignment value 
+but it's no value.
 
-### `npm run build`
+4. Tell us the benefit of using ESLint.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Answer: An individual has a different value and preferences; 
+some prefer single quote, some prefer no-semi-colon, 
+and others. So ESLint likes a standard when those individuals 
+become as a team. At least we are less shit talk about our preferences.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project was bootstrapped with Create React App. You are not any prerequisites and installing 
 
-### `npm run eject`
+## Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This project was deployed, Please visit this [link](https://epichigh.github.io/user-generator-app-redux/).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Built With
+* [Axios](https://github.com/axios/axios) - Used to generate a user
+* [React](https://reactjs.org/) - The web framework used
+* [Redux](https://redux.js.org/) - React state management
+* [Redux-Thunk](http://tachyons.io/) - Used to design the user interface
+* [Style-Components](https://www.styled-components.com) - Enhanced CSS for styling React component 
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Authors
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* **Prasit Tongpradit** - *Initial work* - [EpicHigh](https://github.com/EpicHigh)
 
-## Learn More
+See also the list of [contributors](https://github.com/EpicHigh/user-generator-app-redux/graphs/contributors) who participated in this project.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* Hat tip to anyone whose code was used
+* Continuous development
+* For Job Hiring
+* Inspiration
+* etc
