@@ -2,6 +2,7 @@
   "name": "takemetour",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://epichigh.github.io/take-me-tour-job-quest-2018",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.8.2",
@@ -31,6 +32,5 @@
   ],
   "devDependencies": {
     "gh-pages": "^2.0.1"
-  },
-  "homepage": "https://epichigh.github.io/take-me-tour-job-quest-2018/"
+  }
 }
