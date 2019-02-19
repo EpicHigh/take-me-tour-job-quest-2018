@@ -38,13 +38,13 @@ This project was bootstrapped with Create React App. You are not any prerequisit
 
 ## Deployment
 
-This project was deployed, Please visit this [link](https://epichigh.github.io/user-generator-app-redux/).
+This project was deployed, Please visit this [link](https://epichigh.github.io/take-me-tour-job-quest-2018/).
 
 ## Built With
 * [Axios](https://github.com/axios/axios) - Used to generate a user
 * [React](https://reactjs.org/) - The web framework used
 * [Redux](https://redux.js.org/) - React state management
-* [Redux-Thunk](http://tachyons.io/) - Used to design the user interface
+* [Redux-Thunk](https://github.com/reduxjs/redux-thunk) - Redux middleware for simple async logic like AJAX requests.
 * [Style-Components](https://www.styled-components.com) - Enhanced CSS for styling React component 
 
 ## Authors
