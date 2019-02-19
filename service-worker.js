@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/take-me-tour-job-quest-2018/precache-manifest.27bed8fc002199d1217dc85ce8d82b2c.js"
+  "/take-me-tour-job-quest-2018/precache-manifest.9a48e5f597c6da646874e7610709eb18.js"
 );
 
 workbox.clientsClaim();
