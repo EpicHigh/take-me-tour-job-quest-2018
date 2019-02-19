@@ -11,7 +11,7 @@ export const fetchTheJokes = ({
         value: { joke }
       }
     } = await axios.get(
-      `http://api.icndb.com/jokes/random?firstName=${firstName}&lastName=${lastName}`
+      `https://api.icndb.com/jokes/random?firstName=${firstName}&lastName=${lastName}`
     )
     dispatch(addTheJokes(joke))
   }
